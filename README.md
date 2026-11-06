@@ -2,7 +2,7 @@
 
 This repo no longer carries the listing. Use the SPL:ACN MCP API SDK:
 
-- npm: `@slidphi/spl-acn` (`packages/spl-acn` in SlidPhiLabs)
+- npm: `@slidphi/spl-acn` (repo: `ceedot-rock/spl-acn`)
 - Remote (Streamable HTTP): `https://www.slidphilabs.com/mcp`
 - npm stdio (legacy): `npx -y spl-pay-per-suite mcp`
 - Agent-Rider (signed agent identity): `https://agentrider.fly.dev/api/mcp`
