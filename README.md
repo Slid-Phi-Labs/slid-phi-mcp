@@ -1,37 +1,12 @@
-# Slid Phi Labs MCP
+# Slid Phi Labs MCP (demoted pointer)
 
-Public listing surface for the lab MCP. The encoder stays private. This repo is docs + install metadata only.
+This repo no longer carries the listing. Use the SPL:ACN MCP API SDK:
 
-## Connect
+- npm: `@slidphi/spl-acn` (`packages/spl-acn` in SlidPhiLabs)
+- Remote (Streamable HTTP): `https://www.slidphilabs.com/mcp`
+- npm stdio (legacy): `npx -y spl-pay-per-suite mcp`
+- Agent-Rider (signed agent identity): `https://agentrider.fly.dev/api/mcp`
 
-Remote (Streamable HTTP):
-
-```
-https://www.slidphilabs.com/mcp
-```
-
-npm stdio:
-
-```
-npx -y spl-pay-per-suite mcp
-```
-
-Agent-Rider (signed agent identity):
-
-```
-https://agentrider.fly.dev/api/mcp
-```
-
-## Registry names
-
-- Official MCP Registry: `io.github.ceedot-rock/slid-phi-labs`
-- Official MCP Registry: `io.github.ceedot-rock/agent-rider`
-- Smithery: `slidphi/lab`
-- npm: `spl-pay-per-suite` (`spl-mcp`)
-
-## What it does
-
-Lab account, agent keys, x402 catalog, CuNi / Chamber / Rider discovery. Public measurements on the compressor; engine is not in this repo or the public npm stubs.
-
-Humans: https://www.slidphilabs.com/humans  
-Agents: https://www.slidphilabs.com/agents.txt
+Registry names (`io.github.ceedot-rock/slid-phi-labs`, Smithery
+`slidphi/lab`) now resolve to the ACN surface. This repo stays read-only
+history; the encoder was never here and still is not.
